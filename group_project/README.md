@@ -249,7 +249,7 @@ PageIndex được giữ là fallback cuối cùng, không dùng mặc định t
 | Đinh Nhật Thành | 2A202600572 | Build pipeline evaluation RAGAS, tạo/generate golden dataset, viết `eval_pipeline.py`, tạo `results.md`, thêm UI visualize RAGAS process. | Hoàn thành |
 | PhamThiLinhChi | 2A202600748 | Tìm và rà soát tài liệu luật cho golden dataset; đóng góp expected context/expected answer; so sánh các phương pháp retrieval/chunking bằng RAGAS. | Hoàn thành |
 | Nguyễn Anh Quân | 2A202600589 | Tìm và rà soát tài liệu luật cho golden dataset; kiểm tra coverage câu hỏi pháp luật; so sánh các phương pháp retrieval/chunking bằng RAGAS. | Hoàn thành |
-| Phạm Trung Hiếu | 2A202600766 | Xây dựng toàn bộ RAG pipeline cá nhân (Tasks 1–10): thu thập tài liệu luật thật (Luật 73/2021/QH14, NĐ 105/2021, BLHS 2015) và 5 bài báo thực tế; chuyển đổi PDF/DOC sang Markdown (OCR tesseract cho PDF scan); chunking, TF-IDF + BM25 vectorstore; hybrid retrieval RRF, reranking; generation với citation; bổ sung `eval_pipeline.py` đầy đủ, `golden_dataset_tools.py`, `golden_dataset.json` 15 cặp Q&A thực, `src/benchmark_latency.py`, `src/local_index.py`. | Hoàn thành |
+| Phạm Trung Hiếu | 2A202600766 | Bổ sung `eval_pipeline.py` đầy đủ, `golden_dataset_tools.py`, `golden_dataset.json` 15 cặp Q&A thực, `src/benchmark_latency.py`, `src/local_index.py`. | Hoàn thành |
 
 ---
 
