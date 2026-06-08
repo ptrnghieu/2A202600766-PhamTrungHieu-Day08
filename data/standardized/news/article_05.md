@@ -1,44 +1,36 @@
-# Ca sĩ Lệ Hằng bị bắt quả tang sử dụng ma túy tại Hà Nội
+# Ca sĩ Long Nhật bị bắt, showbiz Việt liên tiếp chấn động vì ma túy
 
-**Source:** https://laodong.vn/phap-luat/diva-le-hang-bi-bat-qua-tang-su-dung-ma-tuy-tai-ha-noi-1160842.ldo
-**Crawled:** 2023-03-10T22:00:00
+**Source:** https://thanhnien.vn/ca-si-long-nhat-bi-bat-showbiz-viet-lien-tiep-chan-dong-vi-ma-tuy-18526052013032001.htm
+**Crawled:** 2026-05-20T13:56:00
 
 ---
 
-# Ca sĩ Lệ Hằng bị bắt quả tang sử dụng ma túy tại Hà Nội
+# Ca sĩ Long Nhật bị bắt, showbiz Việt liên tiếp chấn động vì ma túy
 
-Đêm 10/3/2023, Công an phường Khâm Thiên (quận Đống Đa, Hà Nội) bắt quả tang ca
-sĩ Lệ Hằng (tên thật Đào Lệ Hằng) đang sử dụng ma túy tại địa chỉ 104 Khâm Thiên.
+**Nguồn:** Thanh Niên | **Tác giả:** An Hạ | **Ngày:** 20/05/2026
 
-## Diễn biến vụ bắt giữ
+Những năm gần đây, hàng loạt nghệ sĩ vướng bê bối ma túy khiến công chúng lo ngại về lối sống lệch chuẩn, sự xuống cấp hình ảnh người nổi tiếng và những tác động tiêu cực đến giới trẻ.
 
-Nhận được thông tin phản ánh từ người dân về hoạt động sử dụng ma túy, tổ công tác
-Công an phường Khâm Thiên (quận Đống Đa, Hà Nội) tiến hành kiểm tra địa chỉ 104
-Khâm Thiên vào tối ngày 10/3/2023.
+## Long Nhật và Sơn Ngọc Minh bị bắt
 
-Lực lượng chức năng bắt quả tang Lệ Hằng cùng một số người khác đang có hành vi
-sử dụng ma túy. Tang vật thu giữ bao gồm 0,696 gam ma túy tổng hợp (dạng bột) và
-các dụng cụ sử dụng ma túy.
+Ngày 20/5/2026, Công an TP.HCM thông tin đã khởi tố, tạm giam 71 bị can trong một đường dây ma túy lớn trên địa bàn thành phố. Trong số này có ca sĩ Long Nhật (Đinh Long Nhật) và ca sĩ Sơn Ngọc Minh — cựu thành viên nhóm V.Music. Các bị can bị điều tra về các hành vi: "mua bán trái phép chất ma túy", "tàng trữ trái phép chất ma túy" và "tổ chức sử dụng trái phép chất ma túy".
 
-## Khai nhận của nghi phạm
+Theo cơ quan điều tra, vụ án đang tiếp tục được mở rộng để làm rõ vai trò của các cá nhân liên quan. Đây là một trong những vụ án ma túy có số lượng bị can lớn được phát hiện tại TP.HCM.
 
-Tại cơ quan công an, Lệ Hằng khai nhận đã mua 0,696 gam ma túy với giá 500.000 đồng
-từ một người quen để sử dụng. Đây là lần đầu tiên bị phát hiện.
+## Miu Lê bị khởi tố
 
-## Xử lý theo pháp luật
+Trước đó ngày 16/5/2026, Công an TP.Hải Phòng đã khởi tố, tạm giam ca sĩ Miu Lê để điều tra về hành vi "tổ chức sử dụng trái phép chất ma túy". Vụ việc được phát hiện sau quá trình kiểm tra một nhóm người tại khu vực Cát Hải. Ngoài nữ ca sĩ, cơ quan điều tra còn khởi tố thêm nhiều bị can khác liên quan các hành vi tàng trữ và tổ chức sử dụng trái phép chất ma túy.
 
-Theo Luật Phòng, chống ma túy 2021, hành vi sử dụng trái phép chất ma túy bị xử
-phạt hành chính. Trường hợp tái phạm hoặc có tình tiết tăng nặng, người vi phạm có
-thể bị áp dụng biện pháp cai nghiện bắt buộc theo Điều 32 Luật 73/2021/QH14.
+## Hàng loạt nghệ sĩ vướng lao lý vì ma túy
 
-Công an quận Đống Đa đã lập hồ sơ xử lý vi phạm hành chính đối với Lệ Hằng.
+**Nguyễn Công Trí (đầu năm 2025):** Nhà thiết kế Nguyễn Công Trí bị phát hiện sử dụng trái phép chất ma túy tại nhà riêng ở TP.HCM. Vụ việc nằm trong quá trình triệt phá một đường dây mua bán và tổ chức sử dụng ma túy.
 
-## Tác động đến sự nghiệp
+**Chi Dân và An Tây (14/11/2024):** Ca sĩ Chi Dân và người mẫu Andrea Aybar (An Tây) bị Công an TP.HCM khởi tố, bắt tạm giam để điều tra về hành vi tổ chức sử dụng trái phép chất ma túy. Andrea Aybar đồng thời bị điều tra thêm về hành vi tàng trữ trái phép chất ma túy.
 
-Lệ Hằng từng được biết đến là giọng ca nội lực với nhiều ca khúc trữ tình và nhạc
-đỏ nổi tiếng. Vụ việc khiến các hợp đồng biểu diễn và thương mại của cô bị đình
-chỉ hoàn toàn.
+**Hữu Tín (đầu năm 2024):** Diễn viên Hữu Tín bị TAND Q.8 (cũ), TP.HCM tuyên phạt 7 năm 6 tháng tù về tội tổ chức sử dụng trái phép chất ma túy. Vụ án bắt nguồn từ việc cơ quan chức năng kiểm tra một căn hộ chung cư tại TP.HCM vào năm 2022 và phát hiện nhiều người tụ tập sử dụng chất cấm.
 
-## Nguồn tham khảo
+**Lệ Hằng:** Diễn viên Lệ Hằng từng bị khởi tố về hành vi mua bán trái phép chất ma túy.
 
-Báo Lao Động, VnExpress, Công An Nhân Dân, ngày 10-11/3/2023.
+**Châu Việt Cường (2018):** Ca sĩ Châu Việt Cường liên quan vụ án xảy ra năm 2018 do sử dụng ma túy dẫn đến hậu quả chết người; nam ca sĩ sau đó bị tuyên phạt 13 năm tù về tội giết người.
+
+Giữa những đợt cao điểm truy quét tội phạm ma túy trên cả nước, việc liên tiếp xuất hiện người nổi tiếng liên quan chất cấm không chỉ là câu chuyện vi phạm pháp luật, mà còn gióng lên hồi chuông cảnh báo về trách nhiệm hình ảnh và sức ảnh hưởng của nghệ sĩ đối với công chúng, đặc biệt là giới trẻ.

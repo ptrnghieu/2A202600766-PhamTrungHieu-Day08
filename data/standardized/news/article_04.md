@@ -1,45 +1,32 @@
-# Ca sĩ Miu Lê bị bắt tại Cát Bà, dương tính 3 loại ma túy
+# Kết quả xét nghiệm ma tuý của 3 nam nghệ sĩ Việt
 
-**Source:** https://vnexpress.net/ca-si-miu-le-bi-bat-vi-lien-quan-ma-tuy-tai-cat-ba-2026.html
-**Crawled:** 2026-05-16T15:00:00
+**Source:** https://baoquangninh.vn/ket-qua-xet-nghiem-ma-tuy-cua-3-nam-nghe-si-viet-3408815.html
+**Crawled:** 2026-05-25T17:02:00
 
 ---
 
-# Ca sĩ Miu Lê bị bắt tại Cát Bà, dương tính 3 loại ma túy
+# Kết quả xét nghiệm ma tuý của 3 nam nghệ sĩ Việt
 
-Ngày 10/5/2026, Công an huyện Cát Hải (Hải Phòng) bắt giữ ca sĩ Miu Lê (tên thật
-Nguyễn Thị Mỹ Lệ, sinh năm 1990) tại khu nghỉ dưỡng trên đảo Cát Bà trong một
-chuyên án về ma túy.
+**Nguồn:** Báo Quảng Ninh | **Ngày:** 25/05/2026
 
-## Diễn biến bắt giữ
+Các ca sĩ Tuấn Hưng, Duy Mạnh và Ngọc Sơn công khai kết quả xét nghiệm ma túy, lên tiếng trước những đồn đoán từ dư luận.
 
-Căn cứ thông tin trinh sát, ngày 10/5/2026 Phòng Cảnh sát điều tra tội phạm về ma
-túy Công an TP.Hải Phòng phối hợp Công an huyện Cát Hải ập vào một villa tại khu
-nghỉ dưỡng trên đảo Cát Bà, bắt quả tang Miu Lê cùng 5 người khác đang có hành vi
-sử dụng ma túy trái phép.
+Những ngày gần đây, showbiz Việt liên tục xôn xao trước hàng loạt thông tin nghệ sĩ vướng pháp lý liên quan đến chất cấm. Trước những nghi vấn lan truyền trên mạng xã hội, nhiều ca sĩ đã chủ động lên tiếng và công khai kết quả xét nghiệm ma túy để khẳng định bản thân không sử dụng.
 
-## Kết quả xét nghiệm
+## Ca sĩ Tuấn Hưng
 
-Kết quả xét nghiệm giám định pháp y xác nhận trong cơ thể Miu Lê dương tính với
-3 loại chất ma túy:
-- Methamphetamine (ma túy đá)
-- Ketamine
-- MDMA (Ecstasy)
+Ca sĩ Tuấn Hưng đăng tải video tự kiểm tra ma túy tại nhà trên trang cá nhân, quay rõ từng bước thực hiện thay vì chỉ đăng ảnh kết quả. Kết quả hiển thị âm tính với các chất gây nghiện.
 
-Đây là lần đầu tiên Miu Lê bị phát hiện vi phạm pháp luật về ma túy.
+Nam ca sĩ viết: "Khi mình lao lực vì cường độ làm việc thì người ta cho là mình giả vờ ốm. Chỉ có những người đi diễn cùng trong các chương trình và khán giả mới hiểu, vừa tập vừa diễn 2 show thì kéo dài cả tháng trời. Quả thật cuộc sống này quá nhiều soi mói mà cõi mạng thì không buông tha ai".
 
-## Khởi tố
+## Ca sĩ Duy Mạnh
 
-Ngày 16/5/2026, Cơ quan Cảnh sát điều tra Công an TP.Hải Phòng ra quyết định khởi
-tố bị can đối với Miu Lê về tội "Sử dụng trái phép chất ma túy" theo quy định của
-pháp luật hiện hành.
+Tối 22/5, ca sĩ Duy Mạnh đăng tải hình ảnh tự kiểm tra, xét nghiệm ma tuý tại nhà. Que thử hiện hai vạch — kết quả âm tính. Đến chiều 23/5, Duy Mạnh cho biết anh đang ở TP.HCM và tiết lộ dự định đến Công an TP Hải Phòng để thực hiện xét nghiệm chuyên sâu hơn.
 
-## Sự nghiệp của Miu Lê
+## Ca sĩ Ngọc Sơn
 
-Miu Lê là ca sĩ, diễn viên nổi tiếng với các ca khúc "Đừng như thói quen", "Vì yêu
-cứ đâm đầu" và vai diễn trong phim "Để Mai tính". Vụ việc gây sốc cho người hâm
-mộ vì Miu Lê luôn có hình ảnh trong sáng, tích cực.
+Ca sĩ Ngọc Sơn chủ động trình báo công an phường và được hướng dẫn đến bệnh viện thực hiện xét nghiệm. Sau đó, Ngọc Sơn livestream cập nhật kết quả với khán giả.
 
-## Nguồn tham khảo
+"Tôi không bức xúc gì, chỉ muốn làm rõ tin đồn. Tôi sẽ tặng 10 tỷ đồng cho ai phát hiện cơ thể mình có nồng độ cồn. Ngay cả tiệc với anh em thân thiết nhất, tôi cũng kiên quyết không uống rượu. Tôi sẵn sàng mất toàn bộ gia tài, vĩnh viễn không bước lên sân khấu nếu sử dụng chất cấm", ca sĩ tuyên bố.
 
-VnExpress, Tuổi Trẻ, Công An Nhân Dân, tháng 5/2026.
+Kết quả xét nghiệm cho thấy Ngọc Sơn âm tính với: morphin, codein, heroin, marijuana (cần sa) và Amphetamin (ma túy đá/thuốc lắc). Nam ca sĩ cùng người thân mang kết quả đến Công an phường Bến Thành để trình báo và lưu hồ sơ theo hướng dẫn của cơ quan chức năng.

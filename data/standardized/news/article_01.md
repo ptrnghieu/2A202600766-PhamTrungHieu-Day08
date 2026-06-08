@@ -1,37 +1,36 @@
-# Ca sĩ Châu Việt Cường lĩnh 11 năm tù tội giết người
+# Loạt ca sĩ 'dính' chất cấm, ma túy phá hủy não bộ người trẻ ra sao?
 
-**Source:** https://vnexpress.net/chau-viet-cuong-linh-11-nam-tu-4293829.html
-**Crawled:** 2021-03-10T10:30:00
+**Source:** https://vietnamnet.vn/loat-ca-si-dinh-chat-cam-ma-tuy-pha-huy-nao-bo-nguoi-tre-ra-sao-2518285.html
+**Crawled:** 2026-05-22T14:58:00
 
 ---
 
-# Ca sĩ Châu Việt Cường lĩnh 11 năm tù tội giết người
+# Loạt ca sĩ 'dính' chất cấm, ma túy phá hủy não bộ người trẻ ra sao?
 
-Ngày 10/3/2021, Tòa án nhân dân TP.HCM tuyên phạt ca sĩ Châu Việt Cường (tên thật
-Trương Việt Cường, sinh năm 1987) 11 năm tù về tội Giết người theo khoản 2 Điều 123
-Bộ luật Hình sự 2015.
+**Nguồn:** VietNamNet | **Tác giả:** N. Huyền | **Ngày:** 22/05/2026
 
-## Diễn biến vụ án
+Ban đầu, người dùng ma túy có thể cảm thấy nhiều năng lượng, giảm lo âu nhưng sau đó não bộ bắt đầu suy kiệt.
 
-Đêm 26/9/2018, Châu Việt Cường và Nguyễn Thị Tu (20 tuổi, quê Hải Dương) cùng nhóm
-bạn sử dụng ma túy tổng hợp (methamphetamine) tại một căn hộ ở phường Bình Hưng Hòa A,
-quận Bình Tân, TP.HCM.
+Không chỉ các ca sĩ Miu Lê, Long Nhật, Sơn Ngọc Minh "dính" vào chất cấm, lực lượng chức năng mới đây tiếp tục bắt giữ 140 người liên quan đến ma túy, trong số này không ít người trẻ.
 
-Trong trạng thái kích động do tác động của ma túy, Châu Việt Cường đã cưỡng bức nhét
-nhiều tép tỏi vào miệng chị Tu. Chị Tu bị ngạt thở, tắc đường thở và tử vong. Cơ quan
-pháp y xác nhận nguyên nhân tử vong là do ngạt cơ học.
+Trao đổi với PV VietNamNet, TS.BS Trần Thị Hồng Thu, nguyên Phó giám đốc Bệnh viện Tâm thần ban ngày Mai Hương (Hà Nội) bày tỏ lo ngại mức độ tàn phá của ma túy đối với sức khỏe tâm thần của người sử dụng, đặc biệt là giới trẻ.
 
-## Kết quả điều tra và xét xử
+"Nhiều người trẻ hiện nay không còn nhìn ma túy như một chất có khả năng phá hủy não bộ và cuộc đời. Thay vào đó, một bộ phận xem việc sử dụng ma túy như trải nghiệm, một cách giải trí, giải tỏa áp lực hoặc thậm chí là biểu hiện của sự sành điệu, tự do cá nhân. Đây là điều cực kỳ nguy hiểm", Tiến sĩ Thu nói.
 
-Cơ quan Cảnh sát điều tra Công an TP.HCM bắt tạm giam Châu Việt Cường ngày 28/9/2018.
-Kết quả xét nghiệm xác nhận trong máu và nước tiểu của bị cáo có chất methamphetamine.
+Trong hơn 35 năm làm việc trong lĩnh vực sức khỏe tâm thần, bà Thu từng gặp rất nhiều trường hợp ban đầu chỉ "thử cho biết", "dùng một lần", "dùng cuối tuần" nhưng sau đó dần rơi vào vòng xoáy lệ thuộc.
 
-TAND TP.HCM xét xử sơ thẩm ngày 8/3/2021. Hội đồng xét xử nhận định bị cáo phạm tội
-Giết người theo khoản 2 Điều 123 BLHS 2015 (có tình tiết giảm nhẹ vì thành khẩn, gia
-đình bồi thường cho gia đình nạn nhân 400 triệu đồng). Bản án 11 năm tù giam có hiệu
-lực sau phiên phúc thẩm ngày 10/6/2021 giữ nguyên.
+"Điều đau lòng là nhiều người trong số đó từng là học sinh giỏi, sinh viên xuất sắc, người có tài năng nghệ thuật, doanh nhân trẻ hoặc có tương lai rất rộng mở", Tiến sĩ Thu thông tin.
 
-## Nguồn tham khảo
+## Phá hủy hệ thống điều khiển cảm xúc
 
-Vụ án được đưa tin bởi VnExpress, Tuổi Trẻ, Thanh Niên và nhiều báo chính thống khác
-trong các năm 2018-2021.
+Theo các chuyên gia, ma túy không chỉ gây nghiện. Tác động nguy hiểm nhất của ma túy là phá hủy hệ thống điều khiển cảm xúc, hành vi và khả năng tự chủ của não bộ. Khi một người sử dụng các chất gây nghiện, đặc biệt là ma túy tổng hợp, hệ dopamine trong não bị kích thích quá mức.
+
+"Ma túy thường không phá hủy một con người ngay lập tức mà từng chút một, âm thầm. Ban đầu, người dùng có thể cảm thấy hưng phấn, tự tin, nhiều năng lượng, giảm lo âu hoặc cảm giác 'thoát khỏi thực tại'. Nhưng sau đó, não bộ bắt đầu suy kiệt. Họ dần mất khả năng cảm nhận niềm vui tự nhiên, không còn thấy hạnh phúc với những điều bình thường như gia đình, công việc, học tập hay các mối quan hệ.
+
+Rất nhiều trường hợp xuất hiện mất ngủ kéo dài, lo âu, trầm cảm, hoảng loạn, cáu gắt, bùng nổ cảm xúc, giảm trí nhớ, giảm khả năng tập trung. Nặng hơn, họ có thể xuất hiện hoang tưởng, ảo giác, nghi ngờ bị theo dõi hoặc rơi vào trạng thái loạn thần", Tiến sĩ Thu phân tích.
+
+Điều khiến vị bác sĩ cảm thấy trăn trở là hiện nay nhiều loại ma túy được ngụy trang dưới những cái tên tưởng chừng "vô hại" như kẹo, nước vui, bóng cười, pod, cần sa giải trí… khiến giới trẻ mất cảnh giác.
+
+Theo nhiều nghiên cứu quốc tế, đặc biệt từ Tổ chức Y tế Thế giới (WHO) và Viện nghiên cứu Quốc gia về Lạm dụng ma túy (Mỹ), việc sử dụng ma túy ở tuổi vị thành niên và thanh niên làm tăng đáng kể nguy cơ rối loạn tâm thần, suy giảm nhận thức, hành vi bạo lực và nguy cơ tự sát.
+
+Các chuyên gia lưu ý nếu một người trẻ mất ngủ kéo dài, thay đổi bạn bè đột ngột, học tập sa sút, cảm xúc thất thường, cô lập bản thân, cáu gắt vô cớ hoặc có biểu hiện bất thường, gia đình cần đặc biệt lưu ý khả năng liên quan đến chất gây nghiện.
