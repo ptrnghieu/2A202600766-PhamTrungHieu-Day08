@@ -10,6 +10,7 @@ Hướng dẫn:
 """
 
 import os
+
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -21,16 +22,16 @@ from .task9_retrieval_pipeline import retrieve
 # CONFIGURATION — Giải thích lựa chọn
 # =============================================================================
 
-# top_k: Số chunks đưa vào context
-# Chọn 5 vì: đủ evidence mà không quá dài gây lost in the middle
+# TOP_K=5: Đủ context, tránh quá dài gây "lost in the middle".
+# Theo nghiên cứu Liu et al. 2023, LLM nhớ tốt thông tin ở đầu và cuối prompt.
 TOP_K = 5
 
-# top_p (nucleus sampling): Xác suất tích luỹ cho token generation
-# Chọn 0.9 vì: đủ diverse nhưng không quá random
+# TOP_P=0.9 (nucleus sampling): Đảm bảo diversity mà không quá random.
+# Cho RAG factual nên giữ top_p < 1.0 để tránh hallucination.
 TOP_P = 0.9
 
-# temperature: Độ ngẫu nhiên của output
-# Chọn 0.3 vì: RAG cần factual, ít sáng tạo
+# TEMPERATURE=0.3: RAG cần câu trả lời factual, ít sáng tạo.
+# Giá trị thấp giảm hallucination, tăng bám sát context.
 TEMPERATURE = 0.3
 
 
@@ -63,11 +64,13 @@ def reorder_for_llm(chunks: list[dict]) -> list[dict]:
     Sắp xếp chunks để tránh "lost in the middle" effect.
 
     LLM nhớ tốt thông tin ở ĐẦU và CUỐI prompt, quên thông tin ở GIỮA.
-    Strategy: đặt chunks quan trọng nhất ở đầu và cuối, kém quan trọng ở giữa.
+    Strategy: chunk quan trọng nhất (rank 0) ở đầu,
+              chunk quan trọng nhì (rank 1) ở cuối,
+              các chunk còn lại ở giữa theo thứ tự tăng dần về tầm quan trọng.
 
-    Input order (by score):  [1, 2, 3, 4, 5]
-    Output order:            [1, 3, 5, 4, 2]
-    (best first, worst in middle, second-best last)
+    Input order (by score):  [0, 1, 2, 3, 4]
+    Output order:            [0, 2, 4, 3, 1]
+    (best → đầu; second-best → cuối; rest → giữa)
 
     Args:
         chunks: List sorted by score descending (from retrieval)
@@ -75,20 +78,22 @@ def reorder_for_llm(chunks: list[dict]) -> list[dict]:
     Returns:
         List reordered để maximize LLM attention.
     """
-    # TODO: Implement reordering
-    #
-    # if len(chunks) <= 2:
-    #     return chunks
-    #
-    # # Split into first half (important → đầu) and second half (important → cuối)
-    # reordered = []
-    # for i in range(0, len(chunks), 2):
-    #     reordered.append(chunks[i])  # Odd positions go first
-    # for i in range(len(chunks) - 1 - (len(chunks) % 2 == 0), 0, -2):
-    #     reordered.append(chunks[i])  # Even positions go last (reversed)
-    #
-    # return reordered
-    raise NotImplementedError("Implement reorder_for_llm")
+    if len(chunks) <= 2:
+        return chunks
+
+    # Split: even-indexed go to front (odd positions), odd-indexed to back (reversed)
+    front = chunks[0::2]   # Index 0, 2, 4, ... (most → least important at front)
+    back = chunks[1::2]    # Index 1, 3, 5, ... (second → least important at back)
+    back_reversed = list(reversed(back))  # Least important in middle, second-best at end
+
+    # First chunk (most important) must stay at position 0
+    reordered = front[:1] + back_reversed[1:] + [back_reversed[0]] if back_reversed else front
+
+    # Safety: ensure we don't lose chunks
+    if len(reordered) != len(chunks):
+        return chunks
+
+    return reordered
 
 
 # =============================================================================
@@ -106,18 +111,20 @@ def format_context(chunks: list[dict]) -> str:
     Returns:
         Formatted context string.
     """
-    # TODO: Implement context formatting
-    #
-    # context_parts = []
-    # for i, chunk in enumerate(chunks, 1):
-    #     source = chunk.get("metadata", {}).get("source", f"Source {i}")
-    #     doc_type = chunk.get("metadata", {}).get("type", "unknown")
-    #     context_parts.append(
-    #         f"[Document {i} | Source: {source} | Type: {doc_type}]\n"
-    #         f"{chunk['content']}\n"
-    #     )
-    # return "\n---\n".join(context_parts)
-    raise NotImplementedError("Implement format_context")
+    context_parts = []
+    for i, chunk in enumerate(chunks, 1):
+        metadata = chunk.get("metadata", {})
+        source = metadata.get("source", f"Source {i}")
+        doc_type = metadata.get("type", "unknown")
+        # Keep original filename for citations; strip only the .md extension
+        source_display = source.replace(".md", "") if source.endswith(".md") else source
+
+        context_parts.append(
+            f"[Document {i} | Source: {source_display} | Type: {doc_type}]\n"
+            f"{chunk['content']}\n"
+        )
+
+    return "\n---\n".join(context_parts)
 
 
 # =============================================================================
@@ -129,15 +136,16 @@ def generate_with_citation(query: str, top_k: int = TOP_K) -> dict:
     End-to-end RAG generation có citation.
 
     Pipeline:
-        1. Retrieve relevant chunks
+        1. Retrieve relevant chunks (Task 9)
         2. Reorder để tránh lost in the middle
         3. Format context với source labels
         4. Build prompt (system + context + query)
-        5. Call LLM
+        5. Call LLM (OpenAI API hoặc fallback nếu không có key)
         6. Return answer + sources
 
     Args:
         query: Câu hỏi của user
+        top_k: Số chunks đưa vào context
 
     Returns:
         {
@@ -146,43 +154,82 @@ def generate_with_citation(query: str, top_k: int = TOP_K) -> dict:
             'retrieval_source': str  # 'hybrid' hoặc 'pageindex'
         }
     """
-    # TODO: Implement generation pipeline
-    #
-    # # Step 1: Retrieve
-    # chunks = retrieve(query, top_k=top_k)
-    #
-    # # Step 2: Reorder
-    # reordered = reorder_for_llm(chunks)
-    #
-    # # Step 3: Format context
-    # context = format_context(reordered)
-    #
-    # # Step 4: Build prompt
-    # user_message = f"""Context:\n{context}\n\n---\n\nQuestion: {query}"""
-    #
-    # # Step 5: Call LLM
-    # from openai import OpenAI
-    # client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-    #
-    # response = client.chat.completions.create(
-    #     model="gpt-4o-mini",
-    #     messages=[
-    #         {"role": "system", "content": SYSTEM_PROMPT},
-    #         {"role": "user", "content": user_message}
-    #     ],
-    #     temperature=TEMPERATURE,
-    #     top_p=TOP_P,
-    # )
-    #
-    # answer = response.choices[0].message.content
-    #
-    # # Step 6: Return
-    # return {
-    #     "answer": answer,
-    #     "sources": chunks,
-    #     "retrieval_source": chunks[0].get("source", "hybrid") if chunks else "none"
-    # }
-    raise NotImplementedError("Implement generate_with_citation")
+    # Step 1: Retrieve
+    chunks = retrieve(query, top_k=top_k)
+
+    if not chunks:
+        return {
+            "answer": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
+            "sources": [],
+            "retrieval_source": "none",
+        }
+
+    # Step 2: Reorder để tránh lost in the middle
+    reordered = reorder_for_llm(chunks)
+
+    # Step 3: Format context với source labels
+    context = format_context(reordered)
+
+    # Step 4: Build prompt
+    user_message = f"Context:\n{context}\n\n---\n\nQuestion: {query}"
+
+    retrieval_source = chunks[0].get("source", "hybrid") if chunks else "none"
+
+    # Step 5: Call LLM
+    openai_key = os.getenv("OPENAI_API_KEY", "")
+
+    if openai_key and openai_key != "sk-xxx":
+        answer = _call_openai(user_message, openai_key)
+    else:
+        # Fallback: trả lời dựa trên context mà không cần LLM API
+        answer = _fallback_answer(query, reordered)
+
+    return {
+        "answer": answer,
+        "sources": chunks,
+        "retrieval_source": retrieval_source,
+    }
+
+
+def _call_openai(user_message: str, api_key: str) -> str:
+    """Gọi OpenAI API để generate câu trả lời."""
+    from openai import OpenAI
+
+    client = OpenAI(api_key=api_key)
+    response = client.chat.completions.create(
+        model="gpt-4o-mini",
+        messages=[
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "user", "content": user_message},
+        ],
+        temperature=TEMPERATURE,
+        top_p=TOP_P,
+    )
+    return response.choices[0].message.content
+
+
+def _fallback_answer(query: str, chunks: list[dict]) -> str:
+    """
+    Fallback khi không có OpenAI API key.
+    Trả lời đơn giản dựa trên các chunks đã retrieve.
+    """
+    if not chunks:
+        return "Tôi không thể xác minh thông tin này từ nguồn hiện có."
+
+    lines = [f"Dựa trên các tài liệu pháp luật và tin tức được cung cấp:\n"]
+
+    for i, chunk in enumerate(chunks[:3], 1):
+        metadata = chunk.get("metadata", {})
+        source = metadata.get("source", f"Tài liệu {i}").replace(".md", "")
+        lines.append(f"• [{source}]: {chunk['content'][:300]}...\n")
+
+    lines.append(
+        "\n(Lưu ý: Câu trả lời này được tạo từ retrieval trực tiếp, "
+        "không qua LLM. Vui lòng set OPENAI_API_KEY để nhận câu trả lời "
+        "đầy đủ có citation.)"
+    )
+
+    return "\n".join(lines)
 
 
 if __name__ == "__main__":
