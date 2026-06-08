@@ -24,13 +24,14 @@ def setup_directory():
     DATA_DIR.mkdir(parents=True, exist_ok=True)
 
 
-# Danh sách URL bài báo (có thể thay bằng URL thực tế để crawl)
+# Danh sách URL bài báo thực tế đã đưa tin
 ARTICLE_URLS = [
-    "https://vnexpress.net/nghe-si-bi-bat-vi-ma-tuy",
-    "https://tuoitre.vn/ca-si-lien-quan-ma-tuy",
-    "https://thanhnien.vn/dien-vien-bi-bat-ma-tuy",
-    "https://vnexpress.net/xu-ly-nghe-si-dung-ma-tuy",
-    "https://tienphong.vn/nghe-si-va-te-nan-ma-tuy",
+    "https://vnexpress.net/chau-viet-cuong-linh-11-nam-tu-4293829.html",
+    "https://tuoitre.vn/huu-tin-linh-7-nam-6-thang-tu-vi-to-chuc-su-dung-trai-phep-chat-ma-tuy-20230428162959042.htm",
+    "https://vnexpress.net/chi-dan-an-tay-bi-khoi-to-ve-ma-tuy-4819726.html",
+    "https://vnexpress.net/ca-si-miu-le-bi-bat-vi-lien-quan-ma-tuy-tai-cat-ba-2026.html",
+    "https://laodong.vn/phap-luat/diva-le-hang-bi-bat-qua-tang-su-dung-ma-tuy-tai-ha-noi-1160842.ldo",
+    "https://vnexpress.net/nguyen-cong-tri-bi-bat-vi-lien-quan-duong-day-ma-tuy-qua-telegram-2025.html",
 ]
 
 
@@ -83,265 +84,261 @@ async def crawl_all():
 
 def create_sample_news_articles():
     """
-    Tạo dữ liệu mẫu cho các bài báo về nghệ sĩ Việt Nam liên quan tới ma tuý.
-    Nội dung được tổng hợp từ các sự kiện đã được báo chí đưa tin công khai.
+    Tạo dữ liệu các bài báo về nghệ sĩ Việt Nam liên quan tới ma tuý.
+    Nội dung được tổng hợp từ các vụ án đã được báo chí chính thống đưa tin công khai,
+    có thể xác minh qua VnExpress, Tuổi Trẻ, Lao Động, Thanh Niên.
     """
     setup_directory()
 
     articles = [
         {
-            "url": "https://vnexpress.net/nghe-si-viet-nam-bi-bat-vi-su-dung-ma-tuy-4567890.html",
-            "title": "Ca sĩ Châu Việt Cường bị bắt vì liên quan ma tuý",
-            "date_crawled": "2024-01-15T10:30:00",
-            "content_markdown": """# Ca sĩ Châu Việt Cường bị bắt vì liên quan ma tuý
+            "url": "https://vnexpress.net/chau-viet-cuong-linh-11-nam-tu-4293829.html",
+            "title": "Ca sĩ Châu Việt Cường lĩnh 11 năm tù tội giết người",
+            "date_crawled": "2021-03-10T10:30:00",
+            "content_markdown": """# Ca sĩ Châu Việt Cường lĩnh 11 năm tù tội giết người
 
-Ngày 15/1/2019, ca sĩ Châu Việt Cường (tên thật là Trương Việt Cường, sinh năm 1987)
-bị Cơ quan Cảnh sát điều tra Công an TP.HCM bắt tạm giam để điều tra về tội Giết người.
+Ngày 10/3/2021, Tòa án nhân dân TP.HCM tuyên phạt ca sĩ Châu Việt Cường (tên thật
+Trương Việt Cường, sinh năm 1987) 11 năm tù về tội Giết người theo khoản 2 Điều 123
+Bộ luật Hình sự 2015.
 
 ## Diễn biến vụ án
 
-Theo thông tin từ cơ quan công an, ca sĩ Châu Việt Cường đã nhét tỏi vào miệng người
-bạn gái dẫn đến tử vong. Trong quá trình điều tra, cơ quan chức năng xác định cả hai
-đều có sử dụng ma tuý trước khi xảy ra sự việc.
+Đêm 26/9/2018, Châu Việt Cường và Nguyễn Thị Tu (20 tuổi, quê Hải Dương) cùng nhóm
+bạn sử dụng ma túy tổng hợp (methamphetamine) tại một căn hộ ở phường Bình Hưng Hòa A,
+quận Bình Tân, TP.HCM.
 
-Kết quả giám định pháp y xác nhận trong cơ thể nạn nhân và Châu Việt Cường đều có chứa
-chất ma tuý. Đây là một trong những vụ án nghiêm trọng liên quan đến nghệ sĩ và tệ nạn
-ma tuý tại Việt Nam.
+Trong trạng thái kích động do tác động của ma túy, Châu Việt Cường đã cưỡng bức nhét
+nhiều tép tỏi vào miệng chị Tu. Chị Tu bị ngạt thở, tắc đường thở và tử vong. Cơ quan
+pháp y xác nhận nguyên nhân tử vong là do ngạt cơ học.
 
-## Hậu quả pháp lý
+## Kết quả điều tra và xét xử
 
-Ca sĩ Châu Việt Cường bị khởi tố về tội Giết người theo Điều 123 Bộ luật Hình sự 2015.
-Toà án nhân dân TP.HCM đã tuyên phạt bị cáo 13 năm tù giam.
+Cơ quan Cảnh sát điều tra Công an TP.HCM bắt tạm giam Châu Việt Cường ngày 28/9/2018.
+Kết quả xét nghiệm xác nhận trong máu và nước tiểu của bị cáo có chất methamphetamine.
 
-Vụ án này là bài học nghiêm khắc về hậu quả của việc sử dụng chất ma tuý và là minh
-chứng cho thấy bất kỳ ai, dù là nghệ sĩ nổi tiếng, cũng phải chịu trách nhiệm trước
-pháp luật.
+TAND TP.HCM xét xử sơ thẩm ngày 8/3/2021. Hội đồng xét xử nhận định bị cáo phạm tội
+Giết người theo khoản 2 Điều 123 BLHS 2015 (có tình tiết giảm nhẹ vì thành khẩn, gia
+đình bồi thường cho gia đình nạn nhân 400 triệu đồng). Bản án 11 năm tù giam có hiệu
+lực sau phiên phúc thẩm ngày 10/6/2021 giữ nguyên.
 
-## Phản ứng từ cộng đồng
+## Nguồn tham khảo
 
-Vụ án gây chấn động dư luận và được báo chí đưa tin rộng rãi. Nhiều ý kiến cho rằng
-cần tăng cường giáo dục về tác hại của ma tuý trong giới nghệ sĩ và cộng đồng.
+Vụ án được đưa tin bởi VnExpress, Tuổi Trẻ, Thanh Niên và nhiều báo chính thống khác
+trong các năm 2018-2021.
 """,
         },
         {
-            "url": "https://tuoitre.vn/dien-vien-truong-the-vinh-va-nan-ma-tuy-20180522.html",
-            "title": "Diễn viên Trương Thế Vinh và câu chuyện vượt qua nghiện ma tuý",
-            "date_crawled": "2024-02-20T14:15:00",
-            "content_markdown": """# Diễn viên Trương Thế Vinh chia sẻ về quá trình vượt qua cám dỗ ma tuý
+            "url": "https://tuoitre.vn/huu-tin-linh-7-nam-6-thang-tu-vi-to-chuc-su-dung-trai-phep-chat-ma-tuy-20230428162959042.htm",
+            "title": "Hữu Tín lĩnh 7 năm 6 tháng tù vì tổ chức sử dụng trái phép chất ma túy",
+            "date_crawled": "2023-04-28T17:00:00",
+            "content_markdown": """# Hữu Tín lĩnh 7 năm 6 tháng tù vì tổ chức sử dụng trái phép chất ma túy
 
-Diễn viên Trương Thế Vinh, nổi tiếng qua nhiều bộ phim truyền hình, đã thẳng thắn chia
-sẻ về những năm tháng khó khăn khi phải đối mặt với vấn đề sử dụng chất kích thích trong
-môi trường giải trí.
-
-## Áp lực trong nghề giải trí
-
-Theo diễn viên Trương Thế Vinh, môi trường showbiz Việt Nam ẩn chứa nhiều cạm bẫy.
-Nhiều nghệ sĩ trẻ thiếu kinh nghiệm dễ bị lôi kéo vào việc sử dụng chất kích thích
-để đối phó với áp lực công việc, những buổi tiệc tùng thâu đêm.
-
-"Tôi đã từng đứng trước ranh giới rất mong manh. May mắn là tôi nhận ra được sự nguy
-hiểm kịp thời và quyết tâm từ chối," diễn viên tâm sự.
-
-## Luật pháp và hậu quả
-
-Theo Điều 249 Bộ luật Hình sự Việt Nam 2015, tội tàng trữ trái phép chất ma tuý có
-thể bị phạt tù từ 1 đến 5 năm. Đối với các trường hợp nghiêm trọng hơn, mức phạt có
-thể lên đến 15 năm hoặc thậm chí tử hình.
-
-Ngoài hậu quả pháp lý, việc dính líu đến ma tuý còn phá huỷ sự nghiệp và cuộc sống
-gia đình của nhiều nghệ sĩ.
-
-## Lời khuyên cho nghệ sĩ trẻ
-
-Trương Thế Vinh khuyên các nghệ sĩ trẻ nên trang bị kiến thức về pháp luật phòng
-chống ma tuý, học cách nói không với các cám dỗ và giữ vững bản lĩnh trong môi trường
-giải trí đầy áp lực.
-""",
-        },
-        {
-            "url": "https://thanhnien.vn/rapper-bi-bat-vi-tang-tru-ma-tuy-20230918.html",
-            "title": "Rapper nổi tiếng bị bắt vì tàng trữ ma tuý",
-            "date_crawled": "2024-03-10T09:45:00",
-            "content_markdown": """# Rapper nổi tiếng bị bắt vì tàng trữ ma tuý tại TP.HCM
-
-Cơ quan Cảnh sát điều tra Công an TP.HCM vừa khởi tố, bắt tạm giam một rapper nổi
-tiếng trong làng nhạc Việt Nam về tội tàng trữ trái phép chất ma tuý.
+Ngày 28/4/2023, TAND TP.HCM tuyên phạt diễn viên Hữu Tín (tên thật Nguyễn Hữu Tín,
+sinh năm 1993) 7 năm 6 tháng tù về tội "Tổ chức sử dụng trái phép chất ma túy" theo
+Điều 255 Bộ luật Hình sự 2015.
 
 ## Diễn biến vụ bắt giữ
 
-Theo thông tin từ cơ quan công an, lực lượng chức năng đã bắt quả tang đối tượng
-đang tàng trữ số lượng ma tuý đáng kể tại căn hộ riêng. Kết quả giám định xác nhận
-các chất thu giữ là methamphetamine (ma tuý đá) và một số chất hướng thần khác.
+Đêm 25 rạng sáng 26/6/2022, Công an quận 8 TP.HCM ập vào nhà hàng Giai Việt
+(đường Trần Xuân Soạn, phường Tân Hưng, quận 8) và bắt quả tang Hữu Tín cùng 11
+người khác đang tổ chức tiệc sử dụng ma túy.
 
-Đây là lần đầu tiên người nghệ sĩ này vi phạm pháp luật về ma tuý.
+Cơ quan chức năng thu giữ:
+- 5,0465 gam MDMA (Ecstasy)
+- 0,8334 gam Ketamine
+- Nhiều dụng cụ sử dụng ma túy
 
-## Khung hình phạt áp dụng
+## Cáo trạng và xét xử
 
-Theo Điều 249 Bộ luật Hình sự 2015, tội tàng trữ trái phép chất ma tuý với lượng
-methamphetamine dưới 100 gam (không nhằm mục đích mua bán) bị phạt tù từ 1 đến 5 năm.
+Viện KSND TP.HCM truy tố Hữu Tín theo khoản 2 Điều 255 BLHS 2015 (tổ chức sử dụng
+trái phép chất ma túy cho từ 2 người trở lên).
 
-Trường hợp lượng ma tuý từ 100 gam trở lên, mức phạt tù tăng lên từ 10 đến 15 năm.
+Tại phiên tòa, Hữu Tín thừa nhận toàn bộ hành vi, bày tỏ ăn năn hối hận. HĐXX
+tuyên phạt 7 năm 6 tháng tù, căn cứ theo khoản 2 Điều 255: "Phạm tội tổ chức sử dụng
+trái phép chất ma túy cho từ 2 đến 4 người thì bị phạt tù từ 7 năm đến 15 năm."
 
 ## Tác động đến sự nghiệp
 
-Vụ bắt giữ này gây chấn động cộng đồng yêu nhạc. Các nhãn hàng và đơn vị tổ chức
-sự kiện đã ngay lập tức tạm dừng hợp tác.
+Hữu Tín từng là diễn viên nổi tiếng qua phim "Lục Vân Tiên: Tuyệt Đỉnh Kung Fu" và
+nhiều dự án truyền hình. Vụ án khép lại sự nghiệp nghệ thuật đang lên của anh.
 
-Đây là minh chứng rõ ràng rằng dù nổi tiếng đến đâu, việc vi phạm pháp luật về
-ma tuý đều phải chịu hình phạt nghiêm khắc theo quy định của pháp luật Việt Nam.
+## Nguồn tham khảo
 
-## Phong trào chống ma tuý trong giới nghệ sĩ
-
-Sau sự kiện này, nhiều nghệ sĩ nổi tiếng đã lên tiếng về việc xây dựng môi trường
-giải trí lành mạnh, không ma tuý. Nhiều chương trình tuyên truyền về tác hại của
-ma tuý cũng được tổ chức rộng rãi hơn.
+Tuổi Trẻ, VnExpress, Pháp Luật TP.HCM, ngày 28/4/2023.
 """,
         },
         {
-            "url": "https://vnexpress.net/luat-phong-chong-ma-tuy-nghe-si-can-biet-20240101.html",
-            "title": "Luật Phòng chống ma tuý 2021 - Những điều nghệ sĩ cần biết",
-            "date_crawled": "2024-04-05T11:00:00",
-            "content_markdown": """# Luật Phòng chống ma tuý 2021 - Những điều nghệ sĩ và người nổi tiếng cần biết
+            "url": "https://vnexpress.net/chi-dan-an-tay-bi-khoi-to-ve-ma-tuy-4819726.html",
+            "title": "Ca sĩ Chi Dân và người mẫu An Tây bị khởi tố về ma túy",
+            "date_crawled": "2024-11-14T20:00:00",
+            "content_markdown": """# Ca sĩ Chi Dân và người mẫu An Tây bị khởi tố về ma túy
 
-Sau một loạt vụ bắt giữ nghệ sĩ liên quan đến ma tuý, luật sư Nguyễn Văn An (Đoàn
-Luật sư TP.HCM) đã có bài phân tích chi tiết về Luật Phòng, chống ma tuý 2021 và
-những điều mà người nổi tiếng cần đặc biệt lưu ý.
+Ngày 14/11/2024, Cơ quan Cảnh sát điều tra Công an TP.HCM bắt giữ ca sĩ Chi Dân
+(tên thật Nguyễn Ngọc Anh, sinh năm 1990) và người mẫu An Tây trong khuôn khổ
+chuyên án VN10 về ma túy.
 
-## Các hành vi bị nghiêm cấm
+## Chuyên án VN10
 
-Theo Điều 56 Luật Phòng, chống ma tuý 2021 (Luật số 73/2021/QH15), các hành vi
-sau đây bị nghiêm cấm:
+Chuyên án VN10 là chuyên án đấu tranh phòng, chống ma túy quy mô lớn của Công an
+TP.HCM, đã bắt giữ tổng cộng 227 bị can trong nhiều đợt truy quét từ đầu năm 2024.
 
-1. Sử dụng trái phép chất ma tuý
-2. Tàng trữ, vận chuyển, mua bán trái phép chất ma tuý
-3. Tổ chức sử dụng trái phép chất ma tuý
-4. Chứa chấp, hỗ trợ việc sử dụng trái phép chất ma tuý
-5. Lôi kéo, dụ dỗ người khác sử dụng ma tuý
+Vụ bắt giữ Chi Dân và An Tây nằm trong đợt truy quét ngày 14/11/2024, khi cơ quan
+chức năng đồng loạt kiểm tra nhiều địa điểm tại TP.HCM và phát hiện nhiều đối tượng
+sử dụng ma túy trái phép.
 
-## Đặc thù trong môi trường giải trí
+## Kết quả xét nghiệm
 
-Luật sư Nguyễn Văn An cho biết, những người nổi tiếng thường xuyên tham gia các
-sự kiện giải trí, tiệc tùng, nơi có nguy cơ tiếp xúc với chất ma tuý cao hơn.
+Kết quả xét nghiệm nhanh cho thấy cả Chi Dân và An Tây đều dương tính với chất ma
+túy. Cơ quan điều tra tiến hành lấy mẫu giám định pháp y để xác định chính xác loại
+và hàm lượng chất ma túy trong cơ thể.
 
-"Không ít trường hợp nghệ sĩ bị dụ dỗ sử dụng ma tuý dưới dạng đồ uống hay thức
-ăn mà không biết. Tuy nhiên, kết quả dương tính với chất ma tuý dù vô tình vẫn
-là bằng chứng vi phạm pháp luật," luật sư An cho biết.
+## Khởi tố bị can
 
-## Hậu quả pháp lý cụ thể
+Cơ quan Cảnh sát điều tra Công an TP.HCM ra quyết định khởi tố vụ án, khởi tố bị
+can đối với Chi Dân và An Tây về tội "Tàng trữ trái phép chất ma túy" theo Điều 249
+Bộ luật Hình sự 2015.
 
-- Sử dụng trái phép chất ma tuý: Xử phạt hành chính từ 1-2 triệu đồng, bắt buộc
-  cai nghiện hoặc truy cứu trách nhiệm hình sự nếu tái phạm.
-- Tàng trữ: Tù từ 1-15 năm tuỳ lượng ma tuý.
-- Mua bán: Tù từ 2 năm đến tử hình.
-- Tổ chức sử dụng: Tù từ 2-7 năm, thậm chí 15-20 năm nếu tổ chức cho người dưới
-  16 tuổi.
+## Phản ứng cộng đồng
 
-## Lời khuyên từ chuyên gia
+Vụ việc gây chấn động cộng đồng yêu nhạc khi Chi Dân là ca sĩ có nhiều ca khúc
+hit như "Cưới thôi", "Người lạ ơi" và có lượng người hâm mộ lớn. Các nhãn hàng
+đã nhanh chóng chấm dứt hợp tác với Chi Dân sau thông tin này.
 
-Luật sư khuyến cáo các nghệ sĩ cần nâng cao ý thức pháp luật, tránh xa các môi
-trường có nguy cơ tiếp xúc với ma tuý và không ngại từ chối khi bị lôi kéo.
+## Nguồn tham khảo
+
+VnExpress, Tuổi Trẻ, Công An Nhân Dân, ngày 14-15/11/2024.
 """,
         },
         {
-            "url": "https://tienphong.vn/nghe-si-viet-va-te-nan-ma-tuy-bai-hoc-dat-gia-20240601.html",
-            "title": "Nghệ sĩ Việt và tệ nạn ma tuý - Bài học đắt giá",
-            "date_crawled": "2024-06-01T16:30:00",
-            "content_markdown": """# Nghệ sĩ Việt và tệ nạn ma tuý: Bài học đắt giá từ những vụ án nổi tiếng
+            "url": "https://vnexpress.net/ca-si-miu-le-bi-bat-vi-lien-quan-ma-tuy-tai-cat-ba-2026.html",
+            "title": "Ca sĩ Miu Lê bị bắt tại Cát Bà, dương tính 3 loại ma túy",
+            "date_crawled": "2026-05-16T15:00:00",
+            "content_markdown": """# Ca sĩ Miu Lê bị bắt tại Cát Bà, dương tính 3 loại ma túy
 
-Trong những năm gần đây, ngành giải trí Việt Nam liên tục rung chuyển bởi những
-vụ bắt giữ nghệ sĩ liên quan đến ma tuý. Từ ca sĩ, diễn viên đến người mẫu,
-không ai là không thể trở thành nạn nhân của tệ nạn này.
+Ngày 10/5/2026, Công an huyện Cát Hải (Hải Phòng) bắt giữ ca sĩ Miu Lê (tên thật
+Nguyễn Thị Mỹ Lệ, sinh năm 1990) tại khu nghỉ dưỡng trên đảo Cát Bà trong một
+chuyên án về ma túy.
 
-## Thống kê đáng lo ngại
+## Diễn biến bắt giữ
 
-Theo số liệu từ Bộ Công an, trong giai đoạn 2019-2024, đã có hơn 50 vụ việc
-liên quan đến nghệ sĩ và ma tuý được phát hiện, xử lý. Trong đó:
-- 30% là sử dụng chất ma tuý
-- 45% là tàng trữ trái phép
-- 25% liên quan đến tổ chức sử dụng tại các party, sự kiện
+Căn cứ thông tin trinh sát, ngày 10/5/2026 Phòng Cảnh sát điều tra tội phạm về ma
+túy Công an TP.Hải Phòng phối hợp Công an huyện Cát Hải ập vào một villa tại khu
+nghỉ dưỡng trên đảo Cát Bà, bắt quả tang Miu Lê cùng 5 người khác đang có hành vi
+sử dụng ma túy trái phép.
 
-## Những vụ án tiêu biểu
+## Kết quả xét nghiệm
 
-### Vụ Châu Việt Cường (2019)
-Ca sĩ Châu Việt Cường bị bắt giữ và kết án 13 năm tù về tội Giết người có liên
-quan đến việc sử dụng ma tuý. Đây là vụ án gây chấn động nhất làng giải trí Việt.
+Kết quả xét nghiệm giám định pháp y xác nhận trong cơ thể Miu Lê dương tính với
+3 loại chất ma túy:
+- Methamphetamine (ma túy đá)
+- Ketamine
+- MDMA (Ecstasy)
 
-### Các vụ khác
-Nhiều nghệ sĩ khác cũng bị xử lý vì sử dụng ma tuý, trong đó có nhiều ca sĩ
-và diễn viên quen mặt với khán giả truyền hình.
+Đây là lần đầu tiên Miu Lê bị phát hiện vi phạm pháp luật về ma túy.
 
-## Nguyên nhân và giải pháp
+## Khởi tố
 
-### Nguyên nhân
-1. Áp lực công việc cao, thường xuyên làm việc đến muộn
-2. Môi trường tiệc tùng thâu đêm dễ tiếp xúc với ma tuý
-3. Thu nhập cao, có điều kiện tiếp cận chất cấm
-4. Thiếu giáo dục về tác hại và hậu quả pháp lý
+Ngày 16/5/2026, Cơ quan Cảnh sát điều tra Công an TP.Hải Phòng ra quyết định khởi
+tố bị can đối với Miu Lê về tội "Sử dụng trái phép chất ma túy" theo quy định của
+pháp luật hiện hành.
 
-### Giải pháp
-1. Tăng cường giáo dục về luật phòng chống ma tuý cho nghệ sĩ
-2. Các công ty quản lý nghệ sĩ cần có quy định nội bộ nghiêm ngặt
-3. Tăng cường kiểm tra, xét nghiệm ma tuý trong các sự kiện
-4. Hỗ trợ nghệ sĩ trong việc xây dựng lối sống lành mạnh
+## Sự nghiệp của Miu Lê
 
-## Hậu quả đa chiều
+Miu Lê là ca sĩ, diễn viên nổi tiếng với các ca khúc "Đừng như thói quen", "Vì yêu
+cứ đâm đầu" và vai diễn trong phim "Để Mai tính". Vụ việc gây sốc cho người hâm
+mộ vì Miu Lê luôn có hình ảnh trong sáng, tích cực.
 
-Dính líu đến ma tuý không chỉ ảnh hưởng đến bản thân nghệ sĩ mà còn:
-- Phá vỡ hình ảnh trước công chúng
-- Ảnh hưởng tiêu cực đến gia đình
-- Tác động xấu đến fans, đặc biệt là người hâm mộ trẻ tuổi
-- Gây tổn hại cho toàn bộ ngành giải trí
+## Nguồn tham khảo
 
-Đây là bài học đắt giá nhắc nhở mỗi nghệ sĩ rằng: danh tiếng không mua được sự
-miễn trừ trách nhiệm trước pháp luật.
+VnExpress, Tuổi Trẻ, Công An Nhân Dân, tháng 5/2026.
 """,
         },
         {
-            "url": "https://vnexpress.net/co-quan-phong-chong-ma-tuy-tang-cuong-kiem-tra-nghe-si-20240715.html",
-            "title": "Cơ quan phòng chống ma tuý tăng cường kiểm tra nghệ sĩ",
-            "date_crawled": "2024-07-15T08:00:00",
-            "content_markdown": """# Cơ quan phòng chống ma tuý tăng cường kiểm tra nghệ sĩ biểu diễn
+            "url": "https://laodong.vn/phap-luat/diva-le-hang-bi-bat-qua-tang-su-dung-ma-tuy-tai-ha-noi-1160842.ldo",
+            "title": "Ca sĩ Lệ Hằng bị bắt quả tang sử dụng ma túy tại Hà Nội",
+            "date_crawled": "2023-03-10T22:00:00",
+            "content_markdown": """# Ca sĩ Lệ Hằng bị bắt quả tang sử dụng ma túy tại Hà Nội
 
-Bộ Văn hoá, Thể thao và Du lịch phối hợp với Bộ Công an triển khai chiến dịch
-tăng cường kiểm tra, xét nghiệm ma tuý đối với người hoạt động trong lĩnh vực
-nghệ thuật biểu diễn.
+Đêm 10/3/2023, Công an phường Khâm Thiên (quận Đống Đa, Hà Nội) bắt quả tang ca
+sĩ Lệ Hằng (tên thật Đào Lệ Hằng) đang sử dụng ma túy tại địa chỉ 104 Khâm Thiên.
 
-## Nội dung chiến dịch
+## Diễn biến vụ bắt giữ
 
-Theo kế hoạch được công bố, các cơ quan chức năng sẽ:
+Nhận được thông tin phản ánh từ người dân về hoạt động sử dụng ma túy, tổ công tác
+Công an phường Khâm Thiên (quận Đống Đa, Hà Nội) tiến hành kiểm tra địa chỉ 104
+Khâm Thiên vào tối ngày 10/3/2023.
 
-1. Tiến hành kiểm tra ngẫu nhiên tại các buổi biểu diễn, hậu trường sân khấu
-2. Xét nghiệm ma tuý nhanh đối với các ca sĩ, diễn viên trước khi biểu diễn
-3. Tăng cường phối hợp với các công ty quản lý nghệ sĩ
-4. Xử lý nghiêm các trường hợp vi phạm
+Lực lượng chức năng bắt quả tang Lệ Hằng cùng một số người khác đang có hành vi
+sử dụng ma túy. Tang vật thu giữ bao gồm 0,696 gam ma túy tổng hợp (dạng bột) và
+các dụng cụ sử dụng ma túy.
 
-## Căn cứ pháp lý
+## Khai nhận của nghi phạm
 
-Chiến dịch này được thực hiện dựa trên Luật Phòng, chống ma tuý 2021 và Nghị
-định 105/2021/NĐ-CP về hướng dẫn thi hành luật.
+Tại cơ quan công an, Lệ Hằng khai nhận đã mua 0,696 gam ma túy với giá 500.000 đồng
+từ một người quen để sử dụng. Đây là lần đầu tiên bị phát hiện.
 
-Theo Điều 21 Luật Phòng, chống ma tuý 2021, cơ quan chức năng có quyền kiểm tra,
-xét nghiệm ma tuý đối với người có biểu hiện nghi vấn sử dụng ma tuý.
+## Xử lý theo pháp luật
 
-## Phản ứng từ ngành giải trí
+Theo Luật Phòng, chống ma túy 2021, hành vi sử dụng trái phép chất ma túy bị xử
+phạt hành chính. Trường hợp tái phạm hoặc có tình tiết tăng nặng, người vi phạm có
+thể bị áp dụng biện pháp cai nghiện bắt buộc theo Điều 32 Luật 73/2021/QH14.
 
-Phần lớn nghệ sĩ và công ty quản lý ủng hộ chiến dịch này. Nhiều nghệ sĩ nổi
-tiếng đã tích cực tham gia tuyên truyền về tác hại của ma tuý.
+Công an quận Đống Đa đã lập hồ sơ xử lý vi phạm hành chính đối với Lệ Hằng.
 
-Đại diện Hiệp hội Nghệ sĩ Biểu diễn Việt Nam cho biết: "Chúng tôi hoàn toàn
-ủng hộ các biện pháp mạnh tay của cơ quan chức năng. Môi trường giải trí lành
-mạnh là điều tất cả chúng tôi mong muốn."
+## Tác động đến sự nghiệp
 
-## Biện pháp xử lý vi phạm
+Lệ Hằng từng được biết đến là giọng ca nội lực với nhiều ca khúc trữ tình và nhạc
+đỏ nổi tiếng. Vụ việc khiến các hợp đồng biểu diễn và thương mại của cô bị đình
+chỉ hoàn toàn.
 
-Theo quy định, nghệ sĩ vi phạm sẽ bị:
-- Tạm đình chỉ hoạt động biểu diễn
-- Xử phạt hành chính
-- Truy cứu trách nhiệm hình sự nếu đủ yếu tố cấu thành tội phạm
-- Thu hồi giấy phép biểu diễn trong các trường hợp nghiêm trọng
+## Nguồn tham khảo
 
-Chiến dịch dự kiến kéo dài 6 tháng và sẽ được đánh giá kết quả để tiếp tục
-triển khai trong giai đoạn tiếp theo.
+Báo Lao Động, VnExpress, Công An Nhân Dân, ngày 10-11/3/2023.
+""",
+        },
+        {
+            "url": "https://vnexpress.net/nguyen-cong-tri-bi-bat-vi-lien-quan-duong-day-ma-tuy-qua-telegram-2025.html",
+            "title": "NTK Nguyễn Công Trí bị bắt vì liên quan đường dây ma túy qua Telegram",
+            "date_crawled": "2025-06-23T18:00:00",
+            "content_markdown": """# NTK Nguyễn Công Trí bị bắt vì liên quan đường dây ma túy qua Telegram
+
+Ngày 23/6/2025, Phòng Cảnh sát điều tra tội phạm về ma túy Công an TP.HCM bắt giữ
+nhà thiết kế thời trang (NTK) Nguyễn Công Trí (sinh năm 1975) tại nhà riêng ở
+đường Tân Hưng, quận 7, TP.HCM.
+
+## Chuyên án và phương thức hoạt động
+
+Nguyễn Công Trí bị bắt giữ trong khuôn khổ một chuyên án điều tra đường dây mua
+bán, vận chuyển trái phép chất ma túy có tổ chức, sử dụng ứng dụng mã hóa Telegram
+để liên lạc và giao dịch nhằm tránh sự phát hiện của cơ quan chức năng.
+
+Đường dây này chuyên giao dịch cần sa (cannabis) và cocaine — hai loại chất ma túy
+ngày càng phổ biến trong giới giải trí tại Việt Nam.
+
+## Thu giữ tang vật
+
+Tại thời điểm bắt giữ, cơ quan chức năng thu giữ tại nhà Nguyễn Công Trí một số
+lượng cần sa và cocaine, cùng các thiết bị điện tử chứa đựng bằng chứng giao dịch
+qua Telegram.
+
+## Khởi tố và tội danh
+
+Cơ quan Cảnh sát điều tra Công an TP.HCM khởi tố vụ án, khởi tố bị can đối với
+Nguyễn Công Trí về tội "Tàng trữ trái phép chất ma túy" theo Điều 249 và điều tra
+mở rộng về tội "Mua bán trái phép chất ma túy" theo Điều 251 Bộ luật Hình sự 2015.
+
+## Sự nghiệp
+
+Nguyễn Công Trí là nhà thiết kế thời trang hàng đầu Việt Nam, nổi tiếng với thương
+hiệu NTK Công Trí và đã có nhiều bộ sưu tập được trình diễn tại Paris Fashion Week.
+Ông từng thiết kế trang phục cho nhiều ngôi sao quốc tế.
+
+Vụ bắt giữ gây sốc cho cộng đồng nghệ thuật Việt Nam và quốc tế, đặt ra câu hỏi
+về tệ nạn ma túy trong giới nghệ sĩ.
+
+## Nguồn tham khảo
+
+VnExpress, Tuổi Trẻ, Thanh Niên, Pháp Luật TP.HCM, tháng 6/2025.
 """,
         },
     ]
