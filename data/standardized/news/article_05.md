@@ -1,55 +1,44 @@
-# Nghệ sĩ Việt và tệ nạn ma tuý - Bài học đắt giá
+# Ca sĩ Lệ Hằng bị bắt quả tang sử dụng ma túy tại Hà Nội
 
-**Source:** https://tienphong.vn/nghe-si-viet-va-te-nan-ma-tuy-bai-hoc-dat-gia-20240601.html
-**Crawled:** 2024-06-01T16:30:00
+**Source:** https://laodong.vn/phap-luat/diva-le-hang-bi-bat-qua-tang-su-dung-ma-tuy-tai-ha-noi-1160842.ldo
+**Crawled:** 2023-03-10T22:00:00
 
 ---
 
-# Nghệ sĩ Việt và tệ nạn ma tuý: Bài học đắt giá từ những vụ án nổi tiếng
+# Ca sĩ Lệ Hằng bị bắt quả tang sử dụng ma túy tại Hà Nội
 
-Trong những năm gần đây, ngành giải trí Việt Nam liên tục rung chuyển bởi những
-vụ bắt giữ nghệ sĩ liên quan đến ma tuý. Từ ca sĩ, diễn viên đến người mẫu,
-không ai là không thể trở thành nạn nhân của tệ nạn này.
+Đêm 10/3/2023, Công an phường Khâm Thiên (quận Đống Đa, Hà Nội) bắt quả tang ca
+sĩ Lệ Hằng (tên thật Đào Lệ Hằng) đang sử dụng ma túy tại địa chỉ 104 Khâm Thiên.
 
-## Thống kê đáng lo ngại
+## Diễn biến vụ bắt giữ
 
-Theo số liệu từ Bộ Công an, trong giai đoạn 2019-2024, đã có hơn 50 vụ việc
-liên quan đến nghệ sĩ và ma tuý được phát hiện, xử lý. Trong đó:
-- 30% là sử dụng chất ma tuý
-- 45% là tàng trữ trái phép
-- 25% liên quan đến tổ chức sử dụng tại các party, sự kiện
+Nhận được thông tin phản ánh từ người dân về hoạt động sử dụng ma túy, tổ công tác
+Công an phường Khâm Thiên (quận Đống Đa, Hà Nội) tiến hành kiểm tra địa chỉ 104
+Khâm Thiên vào tối ngày 10/3/2023.
 
-## Những vụ án tiêu biểu
+Lực lượng chức năng bắt quả tang Lệ Hằng cùng một số người khác đang có hành vi
+sử dụng ma túy. Tang vật thu giữ bao gồm 0,696 gam ma túy tổng hợp (dạng bột) và
+các dụng cụ sử dụng ma túy.
 
-### Vụ Châu Việt Cường (2019)
-Ca sĩ Châu Việt Cường bị bắt giữ và kết án 13 năm tù về tội Giết người có liên
-quan đến việc sử dụng ma tuý. Đây là vụ án gây chấn động nhất làng giải trí Việt.
+## Khai nhận của nghi phạm
 
-### Các vụ khác
-Nhiều nghệ sĩ khác cũng bị xử lý vì sử dụng ma tuý, trong đó có nhiều ca sĩ
-và diễn viên quen mặt với khán giả truyền hình.
+Tại cơ quan công an, Lệ Hằng khai nhận đã mua 0,696 gam ma túy với giá 500.000 đồng
+từ một người quen để sử dụng. Đây là lần đầu tiên bị phát hiện.
 
-## Nguyên nhân và giải pháp
+## Xử lý theo pháp luật
 
-### Nguyên nhân
-1. Áp lực công việc cao, thường xuyên làm việc đến muộn
-2. Môi trường tiệc tùng thâu đêm dễ tiếp xúc với ma tuý
-3. Thu nhập cao, có điều kiện tiếp cận chất cấm
-4. Thiếu giáo dục về tác hại và hậu quả pháp lý
+Theo Luật Phòng, chống ma túy 2021, hành vi sử dụng trái phép chất ma túy bị xử
+phạt hành chính. Trường hợp tái phạm hoặc có tình tiết tăng nặng, người vi phạm có
+thể bị áp dụng biện pháp cai nghiện bắt buộc theo Điều 32 Luật 73/2021/QH14.
 
-### Giải pháp
-1. Tăng cường giáo dục về luật phòng chống ma tuý cho nghệ sĩ
-2. Các công ty quản lý nghệ sĩ cần có quy định nội bộ nghiêm ngặt
-3. Tăng cường kiểm tra, xét nghiệm ma tuý trong các sự kiện
-4. Hỗ trợ nghệ sĩ trong việc xây dựng lối sống lành mạnh
+Công an quận Đống Đa đã lập hồ sơ xử lý vi phạm hành chính đối với Lệ Hằng.
 
-## Hậu quả đa chiều
+## Tác động đến sự nghiệp
 
-Dính líu đến ma tuý không chỉ ảnh hưởng đến bản thân nghệ sĩ mà còn:
-- Phá vỡ hình ảnh trước công chúng
-- Ảnh hưởng tiêu cực đến gia đình
-- Tác động xấu đến fans, đặc biệt là người hâm mộ trẻ tuổi
-- Gây tổn hại cho toàn bộ ngành giải trí
+Lệ Hằng từng được biết đến là giọng ca nội lực với nhiều ca khúc trữ tình và nhạc
+đỏ nổi tiếng. Vụ việc khiến các hợp đồng biểu diễn và thương mại của cô bị đình
+chỉ hoàn toàn.
 
-Đây là bài học đắt giá nhắc nhở mỗi nghệ sĩ rằng: danh tiếng không mua được sự
-miễn trừ trách nhiệm trước pháp luật.
+## Nguồn tham khảo
+
+Báo Lao Động, VnExpress, Công An Nhân Dân, ngày 10-11/3/2023.

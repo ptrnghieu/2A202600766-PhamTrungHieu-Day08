@@ -1,46 +1,45 @@
-# Luật Phòng chống ma tuý 2021 - Những điều nghệ sĩ cần biết
+# Ca sĩ Miu Lê bị bắt tại Cát Bà, dương tính 3 loại ma túy
 
-**Source:** https://vnexpress.net/luat-phong-chong-ma-tuy-nghe-si-can-biet-20240101.html
-**Crawled:** 2024-04-05T11:00:00
+**Source:** https://vnexpress.net/ca-si-miu-le-bi-bat-vi-lien-quan-ma-tuy-tai-cat-ba-2026.html
+**Crawled:** 2026-05-16T15:00:00
 
 ---
 
-# Luật Phòng chống ma tuý 2021 - Những điều nghệ sĩ và người nổi tiếng cần biết
+# Ca sĩ Miu Lê bị bắt tại Cát Bà, dương tính 3 loại ma túy
 
-Sau một loạt vụ bắt giữ nghệ sĩ liên quan đến ma tuý, luật sư Nguyễn Văn An (Đoàn
-Luật sư TP.HCM) đã có bài phân tích chi tiết về Luật Phòng, chống ma tuý 2021 và
-những điều mà người nổi tiếng cần đặc biệt lưu ý.
+Ngày 10/5/2026, Công an huyện Cát Hải (Hải Phòng) bắt giữ ca sĩ Miu Lê (tên thật
+Nguyễn Thị Mỹ Lệ, sinh năm 1990) tại khu nghỉ dưỡng trên đảo Cát Bà trong một
+chuyên án về ma túy.
 
-## Các hành vi bị nghiêm cấm
+## Diễn biến bắt giữ
 
-Theo Điều 56 Luật Phòng, chống ma tuý 2021 (Luật số 73/2021/QH15), các hành vi
-sau đây bị nghiêm cấm:
+Căn cứ thông tin trinh sát, ngày 10/5/2026 Phòng Cảnh sát điều tra tội phạm về ma
+túy Công an TP.Hải Phòng phối hợp Công an huyện Cát Hải ập vào một villa tại khu
+nghỉ dưỡng trên đảo Cát Bà, bắt quả tang Miu Lê cùng 5 người khác đang có hành vi
+sử dụng ma túy trái phép.
 
-1. Sử dụng trái phép chất ma tuý
-2. Tàng trữ, vận chuyển, mua bán trái phép chất ma tuý
-3. Tổ chức sử dụng trái phép chất ma tuý
-4. Chứa chấp, hỗ trợ việc sử dụng trái phép chất ma tuý
-5. Lôi kéo, dụ dỗ người khác sử dụng ma tuý
+## Kết quả xét nghiệm
 
-## Đặc thù trong môi trường giải trí
+Kết quả xét nghiệm giám định pháp y xác nhận trong cơ thể Miu Lê dương tính với
+3 loại chất ma túy:
+- Methamphetamine (ma túy đá)
+- Ketamine
+- MDMA (Ecstasy)
 
-Luật sư Nguyễn Văn An cho biết, những người nổi tiếng thường xuyên tham gia các
-sự kiện giải trí, tiệc tùng, nơi có nguy cơ tiếp xúc với chất ma tuý cao hơn.
+Đây là lần đầu tiên Miu Lê bị phát hiện vi phạm pháp luật về ma túy.
 
-"Không ít trường hợp nghệ sĩ bị dụ dỗ sử dụng ma tuý dưới dạng đồ uống hay thức
-ăn mà không biết. Tuy nhiên, kết quả dương tính với chất ma tuý dù vô tình vẫn
-là bằng chứng vi phạm pháp luật," luật sư An cho biết.
+## Khởi tố
 
-## Hậu quả pháp lý cụ thể
+Ngày 16/5/2026, Cơ quan Cảnh sát điều tra Công an TP.Hải Phòng ra quyết định khởi
+tố bị can đối với Miu Lê về tội "Sử dụng trái phép chất ma túy" theo quy định của
+pháp luật hiện hành.
 
-- Sử dụng trái phép chất ma tuý: Xử phạt hành chính từ 1-2 triệu đồng, bắt buộc
-  cai nghiện hoặc truy cứu trách nhiệm hình sự nếu tái phạm.
-- Tàng trữ: Tù từ 1-15 năm tuỳ lượng ma tuý.
-- Mua bán: Tù từ 2 năm đến tử hình.
-- Tổ chức sử dụng: Tù từ 2-7 năm, thậm chí 15-20 năm nếu tổ chức cho người dưới
-  16 tuổi.
+## Sự nghiệp của Miu Lê
 
-## Lời khuyên từ chuyên gia
+Miu Lê là ca sĩ, diễn viên nổi tiếng với các ca khúc "Đừng như thói quen", "Vì yêu
+cứ đâm đầu" và vai diễn trong phim "Để Mai tính". Vụ việc gây sốc cho người hâm
+mộ vì Miu Lê luôn có hình ảnh trong sáng, tích cực.
 
-Luật sư khuyến cáo các nghệ sĩ cần nâng cao ý thức pháp luật, tránh xa các môi
-trường có nguy cơ tiếp xúc với ma tuý và không ngại từ chối khi bị lôi kéo.
+## Nguồn tham khảo
+
+VnExpress, Tuổi Trẻ, Công An Nhân Dân, tháng 5/2026.

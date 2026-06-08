@@ -1,36 +1,41 @@
-# Diễn viên Trương Thế Vinh và câu chuyện vượt qua nghiện ma tuý
+# Hữu Tín lĩnh 7 năm 6 tháng tù vì tổ chức sử dụng trái phép chất ma túy
 
-**Source:** https://tuoitre.vn/dien-vien-truong-the-vinh-va-nan-ma-tuy-20180522.html
-**Crawled:** 2024-02-20T14:15:00
+**Source:** https://tuoitre.vn/huu-tin-linh-7-nam-6-thang-tu-vi-to-chuc-su-dung-trai-phep-chat-ma-tuy-20230428162959042.htm
+**Crawled:** 2023-04-28T17:00:00
 
 ---
 
-# Diễn viên Trương Thế Vinh chia sẻ về quá trình vượt qua cám dỗ ma tuý
+# Hữu Tín lĩnh 7 năm 6 tháng tù vì tổ chức sử dụng trái phép chất ma túy
 
-Diễn viên Trương Thế Vinh, nổi tiếng qua nhiều bộ phim truyền hình, đã thẳng thắn chia
-sẻ về những năm tháng khó khăn khi phải đối mặt với vấn đề sử dụng chất kích thích trong
-môi trường giải trí.
+Ngày 28/4/2023, TAND TP.HCM tuyên phạt diễn viên Hữu Tín (tên thật Nguyễn Hữu Tín,
+sinh năm 1993) 7 năm 6 tháng tù về tội "Tổ chức sử dụng trái phép chất ma túy" theo
+Điều 255 Bộ luật Hình sự 2015.
 
-## Áp lực trong nghề giải trí
+## Diễn biến vụ bắt giữ
 
-Theo diễn viên Trương Thế Vinh, môi trường showbiz Việt Nam ẩn chứa nhiều cạm bẫy.
-Nhiều nghệ sĩ trẻ thiếu kinh nghiệm dễ bị lôi kéo vào việc sử dụng chất kích thích
-để đối phó với áp lực công việc, những buổi tiệc tùng thâu đêm.
+Đêm 25 rạng sáng 26/6/2022, Công an quận 8 TP.HCM ập vào nhà hàng Giai Việt
+(đường Trần Xuân Soạn, phường Tân Hưng, quận 8) và bắt quả tang Hữu Tín cùng 11
+người khác đang tổ chức tiệc sử dụng ma túy.
 
-"Tôi đã từng đứng trước ranh giới rất mong manh. May mắn là tôi nhận ra được sự nguy
-hiểm kịp thời và quyết tâm từ chối," diễn viên tâm sự.
+Cơ quan chức năng thu giữ:
+- 5,0465 gam MDMA (Ecstasy)
+- 0,8334 gam Ketamine
+- Nhiều dụng cụ sử dụng ma túy
 
-## Luật pháp và hậu quả
+## Cáo trạng và xét xử
 
-Theo Điều 249 Bộ luật Hình sự Việt Nam 2015, tội tàng trữ trái phép chất ma tuý có
-thể bị phạt tù từ 1 đến 5 năm. Đối với các trường hợp nghiêm trọng hơn, mức phạt có
-thể lên đến 15 năm hoặc thậm chí tử hình.
+Viện KSND TP.HCM truy tố Hữu Tín theo khoản 2 Điều 255 BLHS 2015 (tổ chức sử dụng
+trái phép chất ma túy cho từ 2 người trở lên).
 
-Ngoài hậu quả pháp lý, việc dính líu đến ma tuý còn phá huỷ sự nghiệp và cuộc sống
-gia đình của nhiều nghệ sĩ.
+Tại phiên tòa, Hữu Tín thừa nhận toàn bộ hành vi, bày tỏ ăn năn hối hận. HĐXX
+tuyên phạt 7 năm 6 tháng tù, căn cứ theo khoản 2 Điều 255: "Phạm tội tổ chức sử dụng
+trái phép chất ma túy cho từ 2 đến 4 người thì bị phạt tù từ 7 năm đến 15 năm."
 
-## Lời khuyên cho nghệ sĩ trẻ
+## Tác động đến sự nghiệp
 
-Trương Thế Vinh khuyên các nghệ sĩ trẻ nên trang bị kiến thức về pháp luật phòng
-chống ma tuý, học cách nói không với các cám dỗ và giữ vững bản lĩnh trong môi trường
-giải trí đầy áp lực.
+Hữu Tín từng là diễn viên nổi tiếng qua phim "Lục Vân Tiên: Tuyệt Đỉnh Kung Fu" và
+nhiều dự án truyền hình. Vụ án khép lại sự nghiệp nghệ thuật đang lên của anh.
+
+## Nguồn tham khảo
+
+Tuổi Trẻ, VnExpress, Pháp Luật TP.HCM, ngày 28/4/2023.

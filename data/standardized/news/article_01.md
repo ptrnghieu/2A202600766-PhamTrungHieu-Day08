@@ -1,35 +1,37 @@
-# Ca sĩ Châu Việt Cường bị bắt vì liên quan ma tuý
+# Ca sĩ Châu Việt Cường lĩnh 11 năm tù tội giết người
 
-**Source:** https://vnexpress.net/nghe-si-viet-nam-bi-bat-vi-su-dung-ma-tuy-4567890.html
-**Crawled:** 2024-01-15T10:30:00
+**Source:** https://vnexpress.net/chau-viet-cuong-linh-11-nam-tu-4293829.html
+**Crawled:** 2021-03-10T10:30:00
 
 ---
 
-# Ca sĩ Châu Việt Cường bị bắt vì liên quan ma tuý
+# Ca sĩ Châu Việt Cường lĩnh 11 năm tù tội giết người
 
-Ngày 15/1/2019, ca sĩ Châu Việt Cường (tên thật là Trương Việt Cường, sinh năm 1987)
-bị Cơ quan Cảnh sát điều tra Công an TP.HCM bắt tạm giam để điều tra về tội Giết người.
+Ngày 10/3/2021, Tòa án nhân dân TP.HCM tuyên phạt ca sĩ Châu Việt Cường (tên thật
+Trương Việt Cường, sinh năm 1987) 11 năm tù về tội Giết người theo khoản 2 Điều 123
+Bộ luật Hình sự 2015.
 
 ## Diễn biến vụ án
 
-Theo thông tin từ cơ quan công an, ca sĩ Châu Việt Cường đã nhét tỏi vào miệng người
-bạn gái dẫn đến tử vong. Trong quá trình điều tra, cơ quan chức năng xác định cả hai
-đều có sử dụng ma tuý trước khi xảy ra sự việc.
+Đêm 26/9/2018, Châu Việt Cường và Nguyễn Thị Tu (20 tuổi, quê Hải Dương) cùng nhóm
+bạn sử dụng ma túy tổng hợp (methamphetamine) tại một căn hộ ở phường Bình Hưng Hòa A,
+quận Bình Tân, TP.HCM.
 
-Kết quả giám định pháp y xác nhận trong cơ thể nạn nhân và Châu Việt Cường đều có chứa
-chất ma tuý. Đây là một trong những vụ án nghiêm trọng liên quan đến nghệ sĩ và tệ nạn
-ma tuý tại Việt Nam.
+Trong trạng thái kích động do tác động của ma túy, Châu Việt Cường đã cưỡng bức nhét
+nhiều tép tỏi vào miệng chị Tu. Chị Tu bị ngạt thở, tắc đường thở và tử vong. Cơ quan
+pháp y xác nhận nguyên nhân tử vong là do ngạt cơ học.
 
-## Hậu quả pháp lý
+## Kết quả điều tra và xét xử
 
-Ca sĩ Châu Việt Cường bị khởi tố về tội Giết người theo Điều 123 Bộ luật Hình sự 2015.
-Toà án nhân dân TP.HCM đã tuyên phạt bị cáo 13 năm tù giam.
+Cơ quan Cảnh sát điều tra Công an TP.HCM bắt tạm giam Châu Việt Cường ngày 28/9/2018.
+Kết quả xét nghiệm xác nhận trong máu và nước tiểu của bị cáo có chất methamphetamine.
 
-Vụ án này là bài học nghiêm khắc về hậu quả của việc sử dụng chất ma tuý và là minh
-chứng cho thấy bất kỳ ai, dù là nghệ sĩ nổi tiếng, cũng phải chịu trách nhiệm trước
-pháp luật.
+TAND TP.HCM xét xử sơ thẩm ngày 8/3/2021. Hội đồng xét xử nhận định bị cáo phạm tội
+Giết người theo khoản 2 Điều 123 BLHS 2015 (có tình tiết giảm nhẹ vì thành khẩn, gia
+đình bồi thường cho gia đình nạn nhân 400 triệu đồng). Bản án 11 năm tù giam có hiệu
+lực sau phiên phúc thẩm ngày 10/6/2021 giữ nguyên.
 
-## Phản ứng từ cộng đồng
+## Nguồn tham khảo
 
-Vụ án gây chấn động dư luận và được báo chí đưa tin rộng rãi. Nhiều ý kiến cho rằng
-cần tăng cường giáo dục về tác hại của ma tuý trong giới nghệ sĩ và cộng đồng.
+Vụ án được đưa tin bởi VnExpress, Tuổi Trẻ, Thanh Niên và nhiều báo chính thống khác
+trong các năm 2018-2021.
