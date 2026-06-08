@@ -1,7 +1,7 @@
 [
   {
     "question": "Hình phạt cho tội tàng trữ trái phép chất ma tuý theo Điều 249 Bộ luật Hình sự?",
-    "expected_answer": "Phạt tù từ 1 đến 5 năm đối với trường hợp tàng trữ từ 1g đến dưới 5g heroin hoặc cocaine, hoặc chất ma tuý khác với khối lượng tương đương.",
+    "expected_answer": "Phạt tù từ 1 đến 5 năm đối với trường hợp tàng trữ từ 1g đến dưới 5g heroin hoặc cocaine, hoặc chất ma tuý khác với khối lượng tương đương. Khung tăng nặng lên đến 20 năm hoặc tù chung thân nếu khối lượng từ 100g heroin/cocaine trở lên.",
     "expected_context": "Bộ luật Hình sự 2015, Điều 249"
   },
   {
@@ -13,5 +13,65 @@
     "question": "Danh mục các chất ma tuý thuộc nhóm I theo quy định pháp luật Việt Nam gồm những chất nào?",
     "expected_answer": "Nhóm I gồm các chất ma tuý tuyệt đối cấm sử dụng trong y học và đời sống, bao gồm heroin, cocaine, methamphetamine, MDMA (ecstasy), cannabis (cần sa), và các chất tương tự.",
     "expected_context": "Nghị định 57/2022/NĐ-CP, Phụ lục I"
+  },
+  {
+    "question": "Tội mua bán trái phép chất ma tuý theo Điều 251 BLHS 2015 bị xử phạt như thế nào?",
+    "expected_answer": "Tội mua bán trái phép chất ma tuý theo Điều 251 BLHS 2015 có khung hình phạt từ 2 năm đến 7 năm tù (khoản 1); từ 7 đến 15 năm (khoản 2 khi có tình tiết tăng nặng như có tổ chức, phạm tội 2 lần trở lên); từ 15 đến 20 năm (khoản 3); và tù chung thân hoặc tử hình nếu heroin/cocaine từ 100g trở lên (khoản 4).",
+    "expected_context": "Bộ luật Hình sự 2015, Điều 251"
+  },
+  {
+    "question": "Tội tổ chức sử dụng trái phép chất ma tuý theo Điều 255 BLHS 2015 quy định hình phạt ra sao?",
+    "expected_answer": "Theo Điều 255 BLHS 2015, tổ chức sử dụng trái phép chất ma tuý bị phạt tù từ 2 đến 7 năm (khoản 1). Nếu tổ chức cho từ 2 đến 4 người sử dụng thì bị phạt tù từ 7 đến 15 năm (khoản 2). Nếu tổ chức cho 5 người trở lên hoặc cho người dưới 16 tuổi thì bị phạt từ 15 đến 20 năm.",
+    "expected_context": "Bộ luật Hình sự 2015, Điều 255"
+  },
+  {
+    "question": "Luật 73/2021/QH14 nghiêm cấm những hành vi nào liên quan đến ma tuý?",
+    "expected_answer": "Luật 73/2021/QH14 nghiêm cấm: sử dụng trái phép chất ma tuý; tàng trữ, vận chuyển, mua bán trái phép chất ma tuý; sản xuất trái phép chất ma tuý; tổ chức sử dụng trái phép chất ma tuý; chứa chấp việc sử dụng trái phép; cưỡng bức, lôi kéo người khác sử dụng ma tuý; và trồng cây có chứa chất ma tuý.",
+    "expected_context": "Luật Phòng chống ma tuý 73/2021/QH14, Điều 5"
+  },
+  {
+    "question": "Vụ án ca sĩ Châu Việt Cường bị kết án tù như thế nào?",
+    "expected_answer": "Ca sĩ Châu Việt Cường (tên thật Trương Việt Cường) bị TAND TP.HCM tuyên phạt 11 năm tù (sau xét xử phúc thẩm năm 2021) về tội Giết người theo khoản 2 Điều 123 BLHS 2015. Vụ án xảy ra đêm 26/9/2018 khi Châu Việt Cường nhét tỏi vào miệng cô gái 20 tuổi dẫn đến tử vong sau khi cả hai sử dụng ma tuý (methamphetamine).",
+    "expected_context": "VnExpress, bản án Châu Việt Cường năm 2021"
+  },
+  {
+    "question": "Diễn viên Hữu Tín bị xử phạt bao nhiêu năm tù về tội tổ chức sử dụng ma tuý?",
+    "expected_answer": "Diễn viên Hữu Tín (Nguyễn Hữu Tín) bị TAND TP.HCM tuyên phạt 7 năm 6 tháng tù về tội tổ chức sử dụng trái phép chất ma tuý theo khoản 2 Điều 255 BLHS 2015. Vụ án xảy ra đêm 25-26/6/2022 tại nhà hàng Giai Việt, quận 8, TP.HCM; tang vật thu giữ gồm 5,0465g MDMA và 0,8334g Ketamine.",
+    "expected_context": "Tuổi Trẻ, bản án Hữu Tín ngày 28/4/2023"
+  },
+  {
+    "question": "Ca sĩ Chi Dân và người mẫu An Tây bị bắt trong vụ án ma tuý nào?",
+    "expected_answer": "Ca sĩ Chi Dân và người mẫu An Tây (Andrea Aybar) bị Công an TP.HCM khởi tố, bắt tạm giam ngày 14/11/2024 trong khuôn khổ chuyên án VN10 — chuyên án đấu tranh phòng chống ma tuý quy mô lớn với tổng cộng 227 bị can. Cả hai bị điều tra về hành vi tổ chức sử dụng trái phép chất ma tuý; An Tây còn bị điều tra về tàng trữ trái phép.",
+    "expected_context": "Công An TP.HCM, ngày 14/11/2024"
+  },
+  {
+    "question": "Tội trồng cây thuốc phiện theo Điều 247 BLHS 2015 bị xử phạt như thế nào?",
+    "expected_answer": "Theo Điều 247 BLHS 2015, tội trồng cây thuốc phiện, cây côca, cây cần sa bị phạt tù từ 6 tháng đến 3 năm (khoản 1) nếu đã được giáo dục 2 lần, đã bị xử phạt vi phạm hành chính, hoặc trồng từ 500 đến dưới 3.000 cây. Nếu trồng từ 3.000 cây trở lên hoặc có tổ chức thì bị phạt tù từ 3 đến 7 năm (khoản 2). Người phạm tội còn có thể bị phạt tiền từ 5 đến 50 triệu đồng.",
+    "expected_context": "Bộ luật Hình sự 2015, Điều 247"
+  },
+  {
+    "question": "Tội sản xuất trái phép chất ma tuý theo Điều 248 BLHS 2015 có những khung hình phạt nào?",
+    "expected_answer": "Điều 248 BLHS 2015 quy định 4 khung: khoản 1 phạt tù từ 2 đến 7 năm; khoản 2 từ 7 đến 15 năm (khi có tổ chức, tái phạm, hoặc heroin/cocaine từ 5g đến dưới 30g); khoản 3 từ 15 đến 20 năm (heroin/cocaine từ 30g đến dưới 100g); khoản 4 phạt 20 năm, tù chung thân hoặc tử hình (heroin/cocaine từ 100g trở lên). Ngoài ra còn có thể bị phạt tiền từ 5 triệu đến 500 triệu đồng.",
+    "expected_context": "Bộ luật Hình sự 2015, Điều 248"
+  },
+  {
+    "question": "Nghị định 105/2021/NĐ-CP hướng dẫn thi hành Luật Phòng chống ma tuý về vấn đề gì?",
+    "expected_answer": "Nghị định 105/2021/NĐ-CP ban hành ngày 04/12/2021, quy định chi tiết và hướng dẫn thi hành một số điều của Luật Phòng chống ma tuý về: công tác phối hợp của các cơ quan chuyên trách phòng chống tội phạm ma tuý; kiểm soát các hoạt động hợp pháp liên quan đến ma tuý; và quản lý người sử dụng trái phép chất ma tuý.",
+    "expected_context": "Nghị định 105/2021/NĐ-CP, Điều 1"
+  },
+  {
+    "question": "Ca sĩ Miu Lê bị khởi tố về tội danh gì và khi nào?",
+    "expected_answer": "Ca sĩ Miu Lê (Nguyễn Thị Mỹ Lệ) bị Công an TP.Hải Phòng khởi tố, tạm giam ngày 16/5/2026 về hành vi tổ chức sử dụng trái phép chất ma tuý. Vụ việc phát sinh từ sự kiện ngày 10/5/2026 khi lực lượng chức năng phát hiện nữ ca sĩ và nhóm người tại khu vực Cát Hải (đảo Cát Bà), kết quả xét nghiệm dương tính với methamphetamine, ketamine và MDMA.",
+    "expected_context": "Công An TP.Hải Phòng, Thanh Niên tháng 5/2026"
+  },
+  {
+    "question": "Ma tuý phá hủy não bộ người trẻ như thế nào theo các chuyên gia y tế?",
+    "expected_answer": "Theo TS.BS Trần Thị Hồng Thu (Bệnh viện Tâm thần Mai Hương), ma tuý phá hủy hệ thống điều khiển cảm xúc, hành vi và khả năng tự chủ. Ma tuý tổng hợp kích thích hệ dopamine quá mức, ban đầu gây hưng phấn nhưng sau đó não bộ suy kiệt, mất khả năng cảm nhận niềm vui tự nhiên. Hậu quả dài hạn gồm mất ngủ, lo âu, trầm cảm, ảo giác, hoang tưởng và rối loạn tâm thần. WHO và NIDA xác nhận sử dụng ma tuý ở thanh thiếu niên làm tăng nguy cơ rối loạn tâm thần và hành vi bạo lực.",
+    "expected_context": "VietNamNet 22/05/2026, TS.BS Trần Thị Hồng Thu"
+  },
+  {
+    "question": "Ca sĩ Long Nhật và Sơn Ngọc Minh bị bắt trong vụ án nào tại TP.HCM năm 2026?",
+    "expected_answer": "Ngày 20/5/2026, Công an TP.HCM khởi tố, tạm giam 71 bị can trong một đường dây ma tuý lớn, trong đó có ca sĩ Long Nhật (Đinh Long Nhật, dòng nhạc trữ tình/bolero) và ca sĩ Sơn Ngọc Minh (cựu thành viên nhóm V.Music). Các bị can bị điều tra về các hành vi mua bán, tàng trữ trái phép và tổ chức sử dụng trái phép chất ma tuý. Vụ án tiếp tục được mở rộng.",
+    "expected_context": "Công An TP.HCM, Thanh Niên ngày 20/05/2026"
   }
 ]
